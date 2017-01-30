@@ -40,8 +40,9 @@ class MediaLibraryServiceProvider extends ServiceProvider
             $this->app->configure('laravel-medialibrary');
         }
 
+        $mediaObserverClass = config('laravel-medialibrary.media_model_observer');
         $mediaClass = config('laravel-medialibrary.media_model');
-        $mediaClass::observe(new MediaObserver());
+        $mediaClass::observe(new $mediaObserverClass);
     }
 
     /**

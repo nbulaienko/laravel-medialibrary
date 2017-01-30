@@ -26,6 +26,11 @@ return [
     'media_model' => Spatie\MediaLibrary\Media::class,
 
     /*
+    * The class name of the media model observer
+    */
+    'media_model_observer' => Spatie\MediaLibrary\MediaObserver::class,
+
+    /*
      * When urls to files get generated this class will be called. Leave empty
      * if your files are stored locally above the site root or on s3.
      */
