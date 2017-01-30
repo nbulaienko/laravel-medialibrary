@@ -3,7 +3,7 @@
 namespace Spatie\MediaLibrary\FileAdder;
 
 use Spatie\MediaLibrary\Media;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Contracts\Cache\Repository;
 use Spatie\MediaLibrary\FilesystemInterface;
 use Symfony\Component\HttpFoundation\File\File;

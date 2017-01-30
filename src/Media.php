@@ -4,7 +4,7 @@ namespace Spatie\MediaLibrary;
 
 use Illuminate\Support\Collection;
 use Spatie\MediaLibrary\Helpers\File;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Spatie\MediaLibrary\Conversion\Conversion;
 use Spatie\MediaLibrary\ImageGenerators\FileTypes\Pdf;
 use Spatie\MediaLibrary\ImageGenerators\FileTypes\Svg;
